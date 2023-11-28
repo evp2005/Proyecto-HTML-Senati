@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo3.css">
+    <link rel="stylesheet" href="css/index_estilo.css">
+    <style>
+      h2, h3{
+          color: #4e6f3f95;
+          transition: color 6s;
+      }
+      h1, nav a {
+              color: black;
+              transition: color 3s;
+      }
+      body.loaded h2, body.loaded h3{
+          color: white;
+          text-shadow: 3px 3px 5px #000000;
+      }
+      body.loaded h1, body.loaded nav a {
+              color: white;
+      }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Portafolio</title>
+    
+</head>
+<body onload="cambiaColor()">
+    <header>
+      <header>
+        <div class="header-contenedor">
+        <div class="logo"> 
+            <a href="index.html">
+            <img src="img/VirtualPlantinoo.png" alt="" width="150px" style="width: 55px; transition: transform .2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"></a>
+        </div>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="vision.html">Visión</a></li>
+                <li><a href="mision.html">Misión</a></li>
+                <li><a href="portafolio.html">Portafolio</a></li>
+                <li><a href="contacto.html">Contactos</a></li>
+                <li><a href="#">Iniciar Sección</a></li>
+            </ul>
+        </div>
+    </header>0
+    <div><!--CAPA CLASIFICAR EN ORDEN-->
+    <style>div img{margin-left: 10px; margin-top: -5px;}</style><a href="index.html">
+      <img src="img/logo.png" alt="" style="width: 55px; transition: transform .2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"></a>
+    </div>
+    </header>
+    <section id="banner">
+        <img src="img/zyro-image (2).jpg" alt="">
+        <div>
+            <center>
+            <h2>BIENVENIDO AL PORTAFOLIO</h2>
+            <h3>Aqui encontraras imagenes de diseños beta alusivos a nuestra pagina web</h3>
+            </center>
+        </div>
+    </section>
+    <br><br>
+    <script src="js/model.js"></script>
+    <div>
+        <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <style>div div div div div div img{width: 100%; height:auto;}</style>
+                    <br>
+                    <img src="img/beta1.jpeg" >
+                    <div class="card-body">
+                      <p class="card-text">Asi era la primera versión de nuestra página web.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" id="myBtn1" onclick="openModal('myModal1')" class="btn btn-sm btn-outline-secondary">Ver</button>
+                        </div>
+                        <small class="text-body-secondary">Pagina Beta</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="myModal1" class="modal">
+                  <!-- Contenido de la ventana modal -->
+                  <div class="modal-content">
+                    <span class="close" onclick="closeModal('myModal1')">&times;</span>
+                    <!-- Aquí puedes agregar las imágenes adicionales -->
+                    <img src="img/beta1.jpeg">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <br>
+                    <img src="img/beta2.jpeg" alt="">
+                    <div class="card-body">
+                      <p class="card-text">Estas fueron nuestros primeros bocetos de como queriamos que sea la pagina web</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" id="myBtn2" onclick="openModal('myModal2')" class="btn btn-sm btn-outline-secondary">Ver</button>
+                        </div>
+                        <small class="text-body-secondary">Primeros Bocetos</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="myModal2" class="modal">
+                  <!-- Contenido de la ventana modal -->
+                  <div class="modal-content">
+                    <span class="close" onclick="closeModal('myModal2')">&times;</span>
+                    <!-- Aquí puedes agregar las imágenes adicionales -->
+                    <img src="img/beta2.jpeg">
+                    <img src="img/beta3.jpeg">
+                    <img src="img/beta4.jpeg">
+                    <img src="img/beta5.jpeg">
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                      <br>
+                      <img src="img/logobeta1.jpeg" alt="">
+                      <div class="card-body">
+                        <p class="card-text">Asi tambien teniamos varias propuestas para nuestro logo.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" id="myBtn3" onclick="openModal('myModal3')" class="btn btn-sm btn-outline-secondary">View</button>
+                          </div>
+                          <small class="text-body-secondary">Logos betas</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="myModal3" class="modal">
+                    <!-- Contenido de la ventana modal -->
+                    <div class="modal-content">
+                      <span class="close" onclick="closeModal('myModal3')">&times;</span>
+                      
+                      <div class="image-row">
+                        <img src="img/logobeta1.jpeg">
+                        <img src="img/logobeta2.jpeg">
+                        <img src="img/logobeta3.jpeg">
+                        <img src="img/logobeta4.jpeg">
+                      </div>
+                      <!-- Contenedor de la fila 2 -->
+                      <div class="image-row">
+                        <img src="img/logobeta5.jpeg">
+                        <img src="img/logobeta6.jpeg">
+                        <img src="img/logobeta7.jpeg">
+                        <img src="img/logobeta8.jpeg">
+                      </div>
+                    </div>
+                  </div>
+          </div>
+</body>
+<script src="js/trans.js"></script>
+</html>

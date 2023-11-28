@@ -1,0 +1,93 @@
+/*parte del cuerpo*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff
+
+    ;
+    margin: 0;
+    padding: 0;
+}
+
+/* titulo de la vision */
+h2 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Estilo del rectangulo y tamaño del verde */
+li {
+    list-style-type: none;
+    font-size: 16px;
+    margin: 10px 20px;
+    float: left
+    
+}
+
+/* pocicion de de la imagen */
+aside {
+    float: right;
+}
+
+/*configuracion de la imagen*/
+img{
+    background: #333; /*color del marco de la imagen*/
+    float: left;
+    padding: 11px;/*anchura del marco*/
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo del rectangulo tamaño */
+section {
+    background-color:  #69c06f    ;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 50px; 
+    float: left;
+}
+
+
+
+
+/* configuracion del indice de la barra//////////////////////////////////*/
+.container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; 
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+.header-contenedor {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+}
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}

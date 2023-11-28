@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <a href="index.html">
+            <img src="img/VirtualPlantinoo.png" alt="" width="150px" style="width: 55px; transition: transform .2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"></a>
+        <div class="logo">Plantinos</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="mision.html">Mision</a>
+                </li>
+                <li>
+                    <a href="vision.html">Vision</a>
+                </li>
+                <li>
+                    <a href="contacto.html" class="active">Contacto</a>
+                </li>
+                <li>
+                    <a href="portafolio.html">Portafolio</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <form action="" class="container__form">
+            <h1>Contact</h1> 
+            <div class="container__form-i">
+                <div class="container__form__group">
+                    <label for="">Nombres</label>
+                    <input type="text" placeholder="Write Names" id="name">
+                    <span id="error" class="deactive-error"></span>
+                </div>
+                <div class="container__form__group">
+                    <label for="">Apellidos</label>
+                    <input type="text" placeholder="Write Lastnames" id="lastname">
+                </div>
+            </div>
+
+            <div class="container__form-i">
+                <div class="container__form__group">
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Write Email">
+                </div>
+                <div class="container__form__group">
+                    <label for="">Telefono</label>
+                    <input type="tel" placeholder="Write Phone">
+                </div>
+            </div>
+
+
+            
+            <div class="container__form__group-m">
+                <label for="">Apellidos</label>
+                <textarea cols="30" rows="10" placeholder="Write Message"></textarea>
+            </div>
+            <button type="submit">
+                <div>
+                    <strong>Send</strong>
+                    <img src="https://reset.com.pe/wp-content/themes/teampicol-reset-150f09da85ad/images/arrow-right-black.svg" alt=""><img src="https://reset.com.pe/wp-content/themes/teampicol-reset-150f09da85ad/images/arrow-right-black.svg" alt=""><img src="https://reset.com.pe/wp-content/themes/teampicol-reset-150f09da85ad/images/arrow-right-black.svg" alt="">
+                </div>
+            </button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="f-con">
+            <p>Plantinos </p>
+            <p>© 2023 Landing. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="/js/app.js"></script>
+
+</body>
+</html>

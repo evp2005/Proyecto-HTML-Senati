@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2e9f83
+
+    ;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado h2 */
+h2 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+section article{
+    float: left
+}
+/* Estilo para el contenido de la lista */
+li {
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 10px 20px;
+    float: left
+    
+}
+
+/* Estilo para el lado derecho (barra lateral) */
+aside {
+    float: right;
+    width: 350px;
+    margin: 20px;
+}
+
+/* Estilo para la imagen en la barra lateral */
+aside img {
+    max-width: 100%;
+    height: auto;
+}
+
+img{
+    background: rgb(10, 12, 10); /*color del marco de la imagen*/
+    float: left;
+    padding: 11px;
+    box-sizing: border-box;
+}
+
+/* Estilo para el elemento de la sección */
+section {
+    background-color:  #69c06f    ;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; /* Esto asegurará que el contenedor ocupe al menos el 100% del alto de la ventana */
+}
+

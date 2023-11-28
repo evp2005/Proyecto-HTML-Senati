@@ -1,0 +1,76 @@
+*{
+    margin:0;/*Nos divide el documento web: superior, inferior, izquierda y derecha*/
+    padding:0;/*Nos separa todos las etiquetas html5*/
+}
+/*Encabezado donde esta el menu*/
+header{
+	width: 100%;
+	height: 60px;
+	background: #69c06f;
+	color: black;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+/*Estilo del titulo*/
+header div h1{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+	width: 98%;
+    font-size: 30px;
+	margin-top: -40px;
+    margin-left: 80px;
+}
+/*Estilo del menu*/
+header nav{
+    overflow:hidden; /*todod el menu este en una fila de un color*/
+    margin-top: -45px;
+    margin-left: 510px;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Estilo del menu y ajustes*/
+header nav a{
+    float: left;/*hace que el menu se ponga horizontalmente*/
+    padding:10px 20px;/*separacion en el menu*/
+    display: block;/*convierte el ontenedor en bloque de uno*/
+    text-decoration: none; /*Quita el subrayado*/
+}
+header nav a:hover{/*hover activa el hipervinculo y crea una mano*/
+    padding: 20px;
+    background:  #566f58;/*cambia el color de donde esta seleccionando el cursor*/
+}
+/*Estilo del banner osea la imagen de fondo*/
+section img{
+    margin-top: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+/*Fuente de las letras del centro y ajustes*/
+section h2{
+    font-family: Impact;
+    margin-top: -190px;
+    font-size: 80px;
+}
+section div h3, h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.modal-content div img {
+    max-width: 20%;
+    height: auto;
+  }
+
+  /* Crea un diseño de filas y columnas usando Flexbox */
+  .image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 10px; /* Espacio entre las imágenes */
+  }
+
+

@@ -1,0 +1,227 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos de encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+.header-contenedor {
+    display: flex; /* Muestra los elementos en una sola línea horizontal */
+    justify-content: space-between; /* Espacio entre el logo y el menú */
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilos para el menú de navegación */
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Muestra los elementos del menú en una sola línea */
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Estilos de banner */
+#banner {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#carrusel {
+    position: relative;
+    overflow: hidden;
+}
+
+#carrusel img {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+.bienvenidos-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.bienvenidos-text h2 {
+    font-size: 24px;
+}
+
+.bienvenidos-text p {
+    font-size: 16px;
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.carousel-arrow-left {
+    left: 20px;
+}
+
+.carousel-arrow-right {
+    right: 20px;
+}
+
+/* Estilos de secciones de productos */
+#productos {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.productos-container .article img,
+.productos-gris-horizontal article img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #00FF00; /* Borde verde de 2px */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+.productos-container {
+    display: flex;
+    justify-content: center;
+}
+
+.article {
+    margin: 0 20px;
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+}
+
+.article h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.article b {
+    color: #007BFF;
+    font-size: 16px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contacto p {
+    font-size: 16px;
+}
+
+.sociales a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.copy {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Estilos para la sección de información */
+#info {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+#info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#info p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos para la sección de productos */
+#productos {
+    background-color: #333;
+    padding: 40px 0;
+}
+
+/* Estilos para las secciones de plantas interiores y exteriores */
+#nuevos {
+    background-color: #696969;
+    padding: 40px 0;
+}
+#interno {
+    background-color: #696969;
+    padding: 40px 0;
+}
+
+#externo {
+    background-color: #696969;
+    padding: 40px 0;
+}
+
+.productos-gris-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productos-gris-horizontal article {
+    text-align: center;
+    margin: 10px;
+}
+
+.productos-gris-horizontal img {
+    max-width: 100%;
+    height: auto;
+}
+
+.productos-gris-horizontal h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.productos-gris-horizontal b {
+    color: #007BFF;
+    font-size: 16px;
+}
